@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Responsive 3-column-card
 
 ## Table of contents
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
+This is a solution to the [Responsive 3-column-card](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
 
 ### Screenshot
