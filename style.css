@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
 }
 
-.contenedor-tarjetas{
+main {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
@@ -20,103 +20,106 @@ body{
     margin: 8em auto 6em;
 }
 
-.caja1{
-    border-radius:10px;
-    width:320px;
-    height:475px;
-    padding:40px;
+.box1 {
+    border-radius: 10px;
+    width: 320px;
+    height: 475px;
+    padding: 40px;
 
     background-color: hsl(31, 77%, 52%);
 }
 
-h2{
-    font-family: 'Big Shoulders Display', sans-serif; /*cursive*/
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    /*cursive*/
     font-weight: 700;
     font-size: 38px;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
-    margin-bottom:30px;
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 
-p{
+p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%, 0.75);
     font-weight: 400;
-    font-size:13px;
+    font-size: 13px;
     padding-right: 2em;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     margin-top: 30px;
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }
 
-button{
-    border-radius: 45px; /*20px*/
+button {
+    border-radius: 45px;
+    /*20px*/
     border-style: none;
     background-color: hsla(0, 0%, 100%, 0.75);
     border: solid hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px; /*10px*/
+    font-size: 15px;
+    /*10px*/
     padding: 10px;
     margin-top: 50px;
     width: 10em;
     height: 4em;
 }
 
-.caja1 button{
+.box1 button {
     color: hsl(31, 77%, 52%);
     background-color: hsl(0, 0%, 95%);
     border-radius: 30px;
 }
 
-.caja1 button:hover{
-    cursor: pointer;
-    background-color: transparent;
-    color: hsl(0, 0%, 95%);
-    border:solid  hsl(0, 0%, 95%);
-}
-
-.caja2{
-    z-index: 1;
-    margin: -10px;
-    width:320px;
-    height:475px;
-    padding: 40px;
-    background-color: hsl(184, 100%, 22%);
-}
-
-.caja2 button{
-    color: hsl(184, 100%, 22%);
-}
-
-.caja2 button:hover{
-    cursor: pointer;
-    background-color: transparent;
-    color: hsl(0, 0%, 95%);
-    border:solid  hsl(0, 0%, 95%);
-}
-
-.caja3{
-    border-radius:10px;
-    width:320px;
-    height:475px;
-    padding: 40px;
-    background-color: hsl(179, 100%, 13%);
-}
-
-.caja3 button{
-    color: hsl(179, 100%, 13%);
-}
-
-.caja3 button:hover{
+.box1 button:hover {
     cursor: pointer;
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     border: solid hsl(0, 0%, 95%);
 }
 
-.attribution{
+.box2 {
+    z-index: 1;
+    margin: -10px;
+    width: 320px;
+    height: 475px;
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.box2 button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%);
+}
+
+.box3 {
+    border-radius: 10px;
+    width: 320px;
+    height: 475px;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.box3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.box3 button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%);
+}
+
+.attribution {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     color: hsl(179, 100%, 13%);
@@ -124,24 +127,28 @@ button{
     margin: 50px;
 }
 
-.attribution a{
+.attribution a {
     color: hsl(184, 100%, 22%);
 }
 
-@media (max-width: 944px){
-    .contenedor-tarjetas{
+@media (max-width: 944px) {
+    main {
         flex-direction: column;
     }
-    .caja1, .caja2, .caja3{
-        height:420px;
-        padding:40px;
+
+    .box1,
+    .box2,
+    .box3 {
+        height: 420px;
+        padding: 40px;
     }
 
-    p{
+    p {
         margin-bottom: 30px;
     }
-    button{
-        margin-top:0;
-        margin-bottom:0px;
+
+    button {
+        margin-top: 0;
+        margin-bottom: 0px;
     }
 }
